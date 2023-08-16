@@ -1,0 +1,6 @@
+index:
+    path: /
+    controller: App\Controller\DefaultController::index
+routed:
+    path:       /routing/{country1}/{country2}
+    controller: App\Controller\AddressController::paths

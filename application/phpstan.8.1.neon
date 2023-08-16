@@ -1,0 +1,14 @@
+parameters:
+	# max or 9 is only for hardcore madmen - even this already have too many rants about limits
+	# even for lvl 7 it has problems with prepared symfony classes
+	level: 6
+	paths:
+		- bin/
+		- config/
+		- public/
+		- src/
+		- tests/
+
+#	ignoreErrors:
+#		# known one - Laravel magic
+#		- '#Call to an undefined static method App\\Models\\CountryData\:\:get\(\)#'
